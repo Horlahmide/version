@@ -88,16 +88,27 @@ body {
 }
 .sidebar {
   background: var(--card);
-  padding: 1rem;
+  padding: 1.6rem 1rem;
   border-radius: 10px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
 }
+li {
+  list-style: none;
+}
+.nav-container div a {
+  display: block;
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  line-height: 32px;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.nav-container div a:hover {
+  background-color: var(--accent);
+}
 .sidebar h4 {
   margin-top: 0;
-}
-.sidebar ul {
-  padding-left: 1rem;
-  color: var(--muted);
 }
 .site-footer {
   padding: 1rem 0;
